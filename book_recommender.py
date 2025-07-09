@@ -8,7 +8,7 @@ class BookRecommender:
         self.metta = MeTTa()
         self._init_knowledge_base()
 
-        genai.configure(api_key='AIzaSyB4_TlmuGtvoBVbcNJjYfEGupyLL7q0HIU')  # replace with your key
+        genai.configure(api_key='here api')  # replace with your key
         self.llm = genai.GenerativeModel('gemini-2.5-flash')
         print("[DEBUG] Gemini model configured.")
 
